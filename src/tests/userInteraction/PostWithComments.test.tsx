@@ -1,6 +1,6 @@
 import { render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { PostWithComment } from '../components/PostWithComments'
+import { PostWithComment } from '../../components/userInteraction/PostWithComments'
 
 describe('Post witch comments test suite', () => {
   describe('User interaction', () => {

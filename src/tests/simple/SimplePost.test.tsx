@@ -1,5 +1,5 @@
 import { render, screen, within } from '@testing-library/react'
-import { SimplePost } from '../components/SimplePost'
+import { SimplePost } from '../../components/simple/SimplePost'
 
 describe('SimplePost test suite', () => {
   it('should be rendered in the document - no likes', () => {

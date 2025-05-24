@@ -1,4 +1,4 @@
-import { First } from '../components/First'
+import { First } from '../../components/simple/First'
 import { render, screen } from '@testing-library/react'
 
 describe('First', () => {

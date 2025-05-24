@@ -1,5 +1,5 @@
 import { act, renderHook } from '@testing-library/react'
-import { useArray } from '../components/UseArray'
+import { useArray } from '../../components/hooks/UseArray'
 
 describe('UseArray test suites', () => {
   describe('UseArray with numbers', () => {
