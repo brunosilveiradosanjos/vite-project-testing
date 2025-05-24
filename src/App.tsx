@@ -4,8 +4,8 @@
 // import { PostWithComment } from './components/userInteraction/PostWithComments'
 // import { ShoppingList1 } from './components/errors/ShoppingList1'
 // import { ShoppingList2 } from './components/errors/ShoppingList2'
-
-import { ShoppingList } from './components/doubles/spies/ShoppingList'
+// import { ShoppingList } from './components/doubles/spies/ShoppingList'
+import { Post } from './components/doubles/simpleMocks/Post'
 
 function App() {
   return (
@@ -20,7 +20,8 @@ function App() {
         groceries={['apple', 'banana', 'apple']}
         selectItem={() => {}}
       /> */}
-      <ShoppingList groceries={['apple', 'banana']} selectItem={() => {}} />
+      {/* <ShoppingList groceries={['apple', 'banana']} selectItem={() => {}} /> */}
+      <Post user="Bruno" content="Comment One" id="1" />
     </>
   )
 }
