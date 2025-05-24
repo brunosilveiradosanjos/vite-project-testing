@@ -37,7 +37,7 @@ export function useArray<T>(defaultValue: T[]) {
 
   return {
     array,
-    set: setArray,
+    setUseArray: setArray,
     pushUseArray,
     filterUseArray,
     updateUseArray,

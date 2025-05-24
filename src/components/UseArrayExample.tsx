@@ -3,7 +3,7 @@ import { useArray } from './UseArray'
 export default function UseArrayExample() {
   const {
     array,
-    set,
+    setUseArray,
     pushUseArray,
     removeUseArray,
     filterUseArray,
@@ -27,7 +27,7 @@ export default function UseArrayExample() {
         Keep Numbers Less Than 3
       </button>
       <br />
-      <button onClick={() => set([1, 2, 3])}>Set To 1, 2,3</button>
+      <button onClick={() => setUseArray([1, 2, 3])}>Set To 1, 2,3</button>
       <br />
       <button onClick={clearUseArray}>Clear</button>
       <br />
