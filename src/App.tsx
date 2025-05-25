@@ -6,8 +6,9 @@
 // import { ShoppingList2 } from './components/errors/ShoppingList2'
 // import { ShoppingList } from './components/doubles/spies/ShoppingList'
 // import { Post } from './components/doubles/simpleMocks/Post'
+// import { Post } from './components/doubles/axios/Post'
 
-import { Post } from './components/doubles/axios/Post'
+import { AppWithRoutes } from './components/router/AppWithRoutes'
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
         selectItem={() => {}}
       /> */}
       {/* <ShoppingList groceries={['apple', 'banana']} selectItem={() => {}} /> */}
-      <Post user="Bruno" content="Comment One" id="1" />
+      {/* <Post user="Bruno" content="Comment One" id="1" /> */}
+      <AppWithRoutes />
     </>
   )
 }
