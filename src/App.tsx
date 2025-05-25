@@ -5,7 +5,9 @@
 // import { ShoppingList1 } from './components/errors/ShoppingList1'
 // import { ShoppingList2 } from './components/errors/ShoppingList2'
 // import { ShoppingList } from './components/doubles/spies/ShoppingList'
-import { Post } from './components/doubles/simpleMocks/Post'
+// import { Post } from './components/doubles/simpleMocks/Post'
+
+import { Post } from './components/doubles/axios/Post'
 
 function App() {
   return (
