@@ -1,7 +1,7 @@
 import { render, screen, within, act } from '@testing-library/react'
 import { Post } from '@/components/doubles/simpleMocks/Post'
 
-vi.mock('@components/doubles/simpleMocks/DataService', () => ({
+vi.mock('@/components/doubles/simpleMocks/DataService', () => ({
   getCommentsForPost: () => {
     console.log('mocked getting comments')
     return [
